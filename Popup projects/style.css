@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  background-color: #decdac;
+  min-height: 100vh;
+}
+.popup-container {
+}
+.popup {
+  padding: 1rem;
+  position: absolute;
+  margin: auto;
+  inset: 0;
+  height: 346px;
+  max-width: 650px;
+  border-radius: 20px;
+  background-color: white;
+}
+.popup1{
+    transform: scale(0);
+    transition: all 0.2s ease-in-out;
+}
+.popup1-open .popup1{
+  transform: scale(1);  
+}
+
+.popup2-close{
+transform: scale(0);  
+transition: all 0.2s ease-in-out;
+}
+
+
+.close-icon {
+  font-size: 48px;
+  font-weight: 700;
+  position: absolute;
+  right: 16px;
+  cursor: pointer;
+  font-family: serif;
+}
+.store {
+  display: flex;
+  justify-content: space-between;
+}
+.store img {
+  position: relative;
+  top: -50px;
+  left: 50px;
+}
+.text {
+  max-width: 500px;
+  margin-top: 50px;
+}
+.text p {
+  font-size: 18px;
+}
+.btn {
+  margin-left: 50px;
+  display: inline-block;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid gray;
+  align-items: center;
+}
+.btn input {
+  height: 90%;
+  padding-left: 20px;
+  border: none;
+  
+  width: 22.5rem;
+  font-size: 18px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.btn button {
+  height: 50px;
+  border: none;
+  
+  max-width: 10rem;
+  background: #ebbf53;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+.open-btn{
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    width: 285px;
+    height: 63px;
+    background: #ebbf53;
+    border-radius: 50px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
